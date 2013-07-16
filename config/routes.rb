@@ -60,4 +60,5 @@ SampleApp::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
   get "static_pages/about"
+  get "static_pages/contact"
 end
